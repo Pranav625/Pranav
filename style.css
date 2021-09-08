@@ -193,6 +193,7 @@ section{
 .education .title{
     position: relative;
     text-align:center;
+    font-style:bold;
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -231,9 +232,11 @@ section{
     position: relative;
     text-align:center;
     font-size: 40px;
+    font-style: bold;
     font-weight: 400;
     margin-bottom: 20px;
     padding-bottom: 40px;
+    z-index:10;
 }
 
 .skills ul li {
@@ -244,4 +247,34 @@ section{
     font-size: 100px;
     margin: 12px;
     font-weight:600;
+}
+
+/*Contact section styling*/
+section{
+    padding: 100px 0;
+}
+
+.contacts{
+    display:flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #262626;
+}
+
+.contacts .title{
+    text-align:center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.contacts ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content:space-between;
+    border-radius: 10px;
+    font-size: 50px;
 }
