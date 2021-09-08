@@ -207,6 +207,16 @@ section{
     margin-bottom: 20px;
 }
 
+.education .education-content h2{
+    border-style: groove;
+    border-color: aqua;
+}
+
+.education .education-content h3{
+    border-style: groove;
+    border-color: aqua;
+}
+
 /*Skills section styling*/
 section{
     padding: 100px 0;
@@ -224,4 +234,14 @@ section{
     font-weight: 400;
     margin-bottom: 20px;
     padding-bottom: 40px;
+}
+
+.skills ul li {
+    list-style: none;
+    display:inline-block;
+    justify-content: space-between;
+    border-radius: 50px;
+    font-size: 100px;
+    margin: 12px;
+    font-weight:600;
 }
