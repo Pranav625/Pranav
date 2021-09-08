@@ -217,3 +217,11 @@ section{
     background:grey;
 }
 
+.skills .title{
+    position: relative;
+    text-align:center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
